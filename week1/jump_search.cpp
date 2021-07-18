@@ -42,6 +42,7 @@ int main() {
         for (int i = start + 1; i < end; i++) {
           if (++count && v[i] == key) {
             flag = true;
+            break;
           }
         }
       }

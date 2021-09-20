@@ -103,7 +103,8 @@ int main() {
         }
         int smallk = quickSelectSmall(arr, 0, n - 1, k);
         int largek = quickSelectLarge(arr, 0, n - 1, k);
-        cout << smallk << "\n" << largek << "\n";
+        cout << smallk << "\n"
+             << largek << "\n";
     }
     return 0;
 }

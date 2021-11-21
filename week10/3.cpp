@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int binary_search(vector<int> &a, int key, bool first_occ) {

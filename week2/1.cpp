@@ -1,8 +1,5 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
@@ -13,13 +10,10 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> v[i];
         }
-
         int key;
         cin >> key;
-
         int lb = 0, ub = 0;
         int start = 0, end = n - 1;
-
         while (start < end) {
             int mid = (start + end) / 2;
             if (v[mid] == key) {
@@ -35,7 +29,7 @@ int main() {
             }
         }
         if (ub - lb > 0) {
-            cout << key << " - " << ub-lb << "\n";
+            cout << key << " - " << ub - lb << "\n";
         }
     }
     return 0;

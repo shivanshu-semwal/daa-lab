@@ -19,15 +19,14 @@ int main() {
     priority_queue<pair<int, int>> maxheap;
     int current_time = 0;
     vector<int> selected(n, 0);
-
     for (int i = 0; i < n; i++) {
-
         if (current_time + v[i][0] <= v[i][1]) {
             current_time += v[i][0];
             maxheap.push({v[i][0], v[i][2]});
             selected[v[i][2]] = 1;
         } else if (maxheap.size()) {
-            if (current_time - maxheap.top().first + v[i][0] <= v[i][1] and maxheap.top().first > v[i][0]) {
+            if (current_time - maxheap.top().first + v[i][0] <= v[i][1] &&
+                maxheap.top().first > v[i][0]) {
                 selected[maxheap.top().second] = 0;
                 maxheap.pop();
                 current_time = current_time - maxheap.top().first + v[i][0];

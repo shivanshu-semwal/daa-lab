@@ -1,16 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
-void printMatrix(vector<int> a[], int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << a[i][j] << " ";
-        }
-        cout << "\n";
-    }
-}
-
 void dfs(vector<int> arr[], int source, int V, bool *visited) {
     visited[source] = true;
     for (int i = 0; i < V; i++) {
@@ -40,7 +29,6 @@ int main() {
             arr[i].push_back(temp);
         }
     }
-    // printMatrix(arr, n);
     int source, destination;
     cin >> source >> destination;
     if (checkPath(arr, n, source - 1, destination - 1)) {

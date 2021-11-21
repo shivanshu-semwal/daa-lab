@@ -1,8 +1,5 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int partition(vector<int> &arr, int start, int end, int &comp, int &swap) {
     int pivot = arr[end]; // end element is pivot
     int i = start - 1;    // right postiton of pivot
@@ -23,7 +20,6 @@ int partition(vector<int> &arr, int start, int end, int &comp, int &swap) {
     }
     return i + 1;
 }
-
 // random pivot
 int partition_r(vector<int> &arr, int l, int r, int &comp, int &swap) {
     srand(time(NULL));
@@ -37,7 +33,6 @@ int partition_r(vector<int> &arr, int l, int r, int &comp, int &swap) {
 }
 
 /* quick sort algorithm */
-
 void quick_sort(vector<int> &arr, int start, int end, int &comp, int &swap) {
     if (start < end) {
         int pivot = partition_r(arr, start, end, comp, swap);
@@ -64,6 +59,5 @@ int main() {
         cout << "swaps: " << swaps;
         cout << "\n";
     }
-
     return 0;
 }

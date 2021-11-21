@@ -1,65 +1,92 @@
-// given an undirected graph, find the minimum spanning tree using Prim's algorithm
 #include <bits/stdc++.h>
 using namespace std;
-void minimum_spanning_tree(int n, int m, int **adj, int **adj_cost,
-                           int *parent, int *key, int *visited) {
-    int i, j, k, min, u, v;
-    for (i = 0; i < n; i++) {
-        key[i] = INT_MAX;
-        visited[i] = 0;
-        parent[i] = -1;
+
+struct Edge {
+    int weight;
+    int a, b;
+    Edge(){};
+    Edge(int aa, int bb, int w) {
+        weight = w;
+        a = aa;
+        b = bb;
     }
-    key[0] = 0;
-    parent[0] = -1;
-    for (i = 0; i < n - 1; i++) {
-        min = INT_MAX;
-        for (j = 0; j < n; j++) {
-            if (visited[j] == 0 && key[j] < min) {
-                min = key[j];
-                u = j;
+    bool operator()(Edge &a, Edge &b) {
+        return a.weight > b.weight;
+    }
+};
+
+int primsMST(vector<vector<int>> &g) {
+    set<int> tree;
+    int n = g.size();
+    // Min heap
+    priority_queue<Edge, vector<Edge>, Edge> q;
+    int mn = INT_MAX;
+    Edge mini;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (g[i][j] != 0) {
+                if (g[i][j] < mn) {
+                    mn = g[i][j];
+                    mini.a = i;
+                    mini.b = j;
+                    mini.weight = mn;
+                }
             }
         }
-        visited[u] = 1;
-        for (j = 0; j < n; j++) {
-            if (visited[j] == 0 && adj[u][j] && key[j] > adj[u][j]) {
-                key[j] = adj[u][j];
-                parent[j] = u;
+    }
+    int ans = 0;
+    q.push(mini);
+    while (!q.empty()) {
+        if (tree.size() == n) break;
+        Edge u = q.top();
+        q.pop();
+        int both = 0;
+        if (tree.find(u.a) == tree.end()) {
+            for (int i = 0; i < n; i++) {
+                if (i == u.a or i == u.b) continue;
+                if (g[i][u.a] != 0) {
+                    Edge temp(i, u.a, g[i][u.a]);
+                    q.push(temp);
+                }
+                if (g[u.a][i] != 0) {
+                    Edge temp(u.a, i, g[u.a][i]);
+                    q.push(temp);
+                }
             }
+            tree.insert(u.a);
+            both++;
         }
-    }
-    for (i = 0; i < n; i++) {
-        if (parent[i] != -1) {
-            printf("%d %d %d\n", parent[i] + 1, i + 1, adj_cost[parent[i]][i]);
+        if (tree.find(u.b) == tree.end()) {
+            for (int i = 0; i < n; i++) {
+                if (i == u.b or i == u.a) continue;
+                if (g[i][u.b] != 0) {
+                    Edge temp(i, u.b, g[i][u.b]);
+                    q.push(temp);
+                }
+                if (g[u.b][i] != 0) {
+                    Edge temp(u.b, i, g[u.b][i]);
+                    q.push(temp);
+                }
+            }
+            tree.insert(u.b);
+            both++;
         }
+        if (both != 0) ans += u.weight;
     }
+    return ans;
 }
+
 int main() {
-    int n, m, i, j, k, u, v, w;
-    printf("Enter the number of vertices: ");
-    scanf("%d", &n);
-    printf("Enter the number of edges: ");
-    scanf("%d", &m);
-    int **adj = new int *[n];
-    int **adj_cost = new int *[n];
-    for (i = 0; i < n; i++) {
-        adj[i] = new int[n];
-        adj_cost[i] = new int[n];
-        for (j = 0; j < n; j++) {
-            adj[i][j] = 0;
-            adj_cost[i][j] = 0;
+    int n;
+    cin >> n;
+    vector<vector<int>> g(n + 1, vector<int>(n + 1, 0));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> g[i][j];
         }
     }
-    for (i = 0; i < m; i++) {
-        printf("Enter the edge %d: ", i + 1);
-        scanf("%d %d %d", &u, &v, &w);
-        adj[u - 1][v - 1] = 1;
-        adj_cost[u - 1][v - 1] = w;
-        adj[v - 1][u - 1] = 1;
-        adj_cost[v - 1][u - 1] = w;
-    }
-    int *parent = new int[n];
-    int *key = new int[n];
-    int *visited = new int[n];
-    minimum_spanning_tree(n, m, adj, adj_cost, parent, key, visited);
+    int ans = primsMST(g);
+    cout << "Minimum Spanning Weight: ";
+    cout << ans << '\n';
     return 0;
 }

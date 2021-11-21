@@ -62,6 +62,8 @@ INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.que
 INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.que
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.cpp
@@ -70,6 +72,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.cpp
 INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.cpp
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrb7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.in
@@ -430,4 +435,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb

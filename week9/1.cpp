@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// find shortest path using floyd warshall algorithm
+
 int main() {
     int n, i, j, k, w;
     cin >> n;

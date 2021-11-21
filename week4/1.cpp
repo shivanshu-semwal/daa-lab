@@ -1,8 +1,5 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 vector<int> merge(vector<int> left, vector<int> right, int *comp, int *inv) {
     vector<int> merged(left.size() + right.size());
     int i, j, k;
@@ -21,37 +18,17 @@ vector<int> merge(vector<int> left, vector<int> right, int *comp, int *inv) {
 }
 
 vector<int> merge_sort(vector<int> v, int *comp, int *inv) {
-
-    cerr << "vector of size: " << v.size() << "\n";
-
     if (v.size() == 1) {
-        cerr << "one: " << v[0] << "\n";
         return v;
     }
-
     int mid = v.size() / 2;
-    cerr << "mid: " << mid << "\n"
-         << "1: " << mid << " 2: " << (v.size() - mid) << "\n";
-
     vector<int> left(mid);
     vector<int> right(v.size() - mid);
-
     for (int i = 0; i < mid; i++) left[i] = v[i];
     for (int i = mid; i < v.size(); i++) right[i - mid] = v[i];
-
     vector<int> left2 = merge_sort(left, comp, inv);
     vector<int> right2 = merge_sort(right, comp, inv);
-
-    cerr << "left2: ";
-    for (int i = 0; i < left2.size(); i++) cerr << left2[i] << " ";
-    cerr << "\nright2: ";
-    for (int i = 0; i < right2.size(); i++) cerr << right2[i] << " ";
-    cerr << "\n";
-
     vector<int> ans = merge(left2, right2, comp, inv);
-    cerr << "merge: ";
-    for (int i = 0; i < ans.size(); i++) cerr << ans[i] << " ";
-    cerr << "\n";
     return ans;
 }
 

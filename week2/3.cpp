@@ -1,9 +1,5 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
@@ -33,7 +29,6 @@ int main() {
                 }
             }
         }
-
         cout << count << "\n";
     }
     return 0;

@@ -1,7 +1,4 @@
-#include <iostream>
-#include <limits.h>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 // partition form the end
@@ -15,7 +12,6 @@ int partitionSmall(int arr[], int l, int r) {
             i++;
         }
     }
-
     int temp = arr[i];
     arr[i] = arr[r];
     arr[r] = temp;
@@ -27,12 +23,10 @@ int quickSelectSmall(int arr[], int l, int r, int k) {
     if (k > 0 && k <= r - l + 1) {
         // partition the array around the last element
         int index = partitionSmall(arr, l, r);
-
         // if index is same as k
         if (index - l == k - 1) {
             return arr[index];
         }
-
         // if index is more, recurse for left, else right
         if (index - l > k - 1) {
             return quickSelectSmall(arr, l, index - 1, k);
@@ -54,11 +48,9 @@ int partitionLarge(int arr[], int l, int r) {
             i++;
         }
     }
-
     int temp = arr[i];
     arr[i] = arr[r];
     arr[r] = temp;
-
     return i;
 }
 
@@ -67,12 +59,10 @@ int quickSelectLarge(int arr[], int l, int r, int k) {
     if (k > 0 && k <= r - l + 1) {
         // partition the array around the last element
         int index = partitionLarge(arr, l, r);
-
         // if index is same as k
         if (index - l == k - 1) {
             return arr[index];
         }
-
         // if index is more, recurse for left, else right
         if (index - l > k - 1) {
             return quickSelectLarge(arr, l, index - 1, k);
@@ -95,7 +85,6 @@ int main() {
         }
         int k;
         cin >> k;
-
         // find the kth smallest and largest element
         if (k > n) {
             cerr << "Invalid input\n";

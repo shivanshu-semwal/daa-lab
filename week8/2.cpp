@@ -70,6 +70,5 @@ int main() {
     int ans = kruskalsMST(g);
     cout << "Minimum Spanning Weight: ";
     cout << ans << '\n';
-
     return 0;
 }

@@ -1,8 +1,5 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
@@ -10,13 +7,10 @@ int main() {
         int n;
         cin >> n;
         vector<int> v(n);
-
         for (int i = 0; i < n; i++) {
             cin >> v[i];
         }
-
         bool flag = true;
-
         for (int i = 1; i < n; i++) {
             int key = v[i];
             int j = i - 1;
@@ -31,7 +25,6 @@ int main() {
                 break;
             }
         }
-
         if (!flag) {
             cout << "Yes\n";
         } else {

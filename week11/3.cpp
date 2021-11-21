@@ -25,7 +25,6 @@ int main() {
         cout << "No" << endl;
     } else {
         vector<vector<int>> dp(n + 1, vector<int>(sum / 2 + 1, -1));
-
         if (memo(0, sum / 2, dp, arr, n)) {
             cout << "Yes" << endl;
         } else {

@@ -1,10 +1,6 @@
 # Design and Analysis of Algorithms
 
-## Contents
+## How to run
 
-- week0
-  - linear-search
-- week1
-  - linear-search
-  - binary-search
-  - jump-search
+- run `build.sh` to regenerate the output files
+- run `pdflatex file.tex` to regenerate the `.pdf` file

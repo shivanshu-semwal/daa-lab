@@ -1,9 +1,5 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
@@ -16,7 +12,6 @@ int main() {
         }
         vector<int> ans;
         bool flag = false;
-
         for (int i = 0; i < n - 2; i++) {
             for (int j = i + 1; j < n - 1; j++) {
                 // element to search in the location j+1 to n-1
@@ -41,7 +36,6 @@ int main() {
             }
             if (flag) break;
         }
-
         // printing result
         if (flag) {
             cout << ans[0]+1 << "," << ans[1]+1 << "," << ans[2]+1 << "\n";

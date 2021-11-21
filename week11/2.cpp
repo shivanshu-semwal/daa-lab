@@ -18,7 +18,6 @@ int main() {
     int n;
     cin >> n;
     int target;
-
     vector<int> coins(n);
     for (int i = 0; i < n; i++) {
         cin >> coins[i];

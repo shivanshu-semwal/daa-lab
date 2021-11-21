@@ -1,15 +1,9 @@
-#include <algorithm>
-#include <iostream>
-#include <unordered_map>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
-
     /* test cases */
     int t;
     cin >> t;
-
     while (t--) {
         /* array input */
         int n;
@@ -20,24 +14,18 @@ int main() {
         }
         int key;
         cin >> key;
-
         /* creating hashmap for the elements */
-
         unordered_map<int, int> m;
         bool found = false;
-        
         for (int i = 0; i < n; i++) {
-
             /* element found */
             if (m.find(key - arr[i]) != m.end()) {
                 found = true;
                 cout << arr[i] << " " << (key - arr[i]) << ", ";
             }
-
             /* register it's presence */
             m[arr[i]]++;
         }
-
         if (!found) {
             cout << "No Such Pair Exist\n";
         } else {

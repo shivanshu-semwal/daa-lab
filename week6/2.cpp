@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 bool isBipartiteUtil(vector<int> G[], int src, int colorArr[], int V) {
@@ -13,12 +12,10 @@ bool isBipartiteUtil(vector<int> G[], int src, int colorArr[], int V) {
         if (G[u][u] == 1) return false;
         for (int v = 0; v < V; ++v) {
             if (G[u][v] != 0 && colorArr[v] == -1) {
-                // assign opposite color
-                colorArr[v] = 1 - colorArr[u];
+                colorArr[v] = 1 - colorArr[u]; // assign opposite color
                 q.push(v);
             } else if (G[u][v] != 0 && colorArr[v] == colorArr[u])
-                // edge with same color exist
-                return false;
+                return false; // edge with same color exist
         }
     }
     return true;
@@ -39,7 +36,6 @@ int main() {
     int n;
     cin >> n;
     vector<int> G[n];
-    /* input adjacency matrix */
     int temp;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {

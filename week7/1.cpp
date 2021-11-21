@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// use bellman ford to find the shortest path from source to destination
-// if there is no path then return -1
+
 int bellman_ford(int **graph, int source, int destination, int vertices) {
     int dist[vertices];
     for (int i = 0; i < vertices; i++) {

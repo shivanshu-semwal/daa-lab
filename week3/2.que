@@ -1,0 +1,2 @@
+Given an unsorted array, sort the array using selection sort
+Time Complexity: $O(n^2)$, Space Complexity: $O(1)$

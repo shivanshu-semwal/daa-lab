@@ -1,0 +1,2 @@
+Sort an array using QuickSort and calculate the number of swaps made
+Time Complexity: O(nlogn), Space Complexity: O(n)

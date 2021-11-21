@@ -1,0 +1,9 @@
+21 23 32 45 46 65 76 89 
+comparisions = 16
+inversions = 13
+21 32 34 46 51 54 65 76 78 97 
+comparisions = 23
+inversions = 28
+12 22 31 42 46 54 63 65 86 223 324 325 553 645 652 
+comparisions = 41
+inversions = 54

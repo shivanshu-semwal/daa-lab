@@ -1,0 +1,3 @@
+Given an unsorted array containing 0 or more duplicates, find whether 
+there are any duplicates or not
+Time Complexity: O(nlogn), Space Complexity: O(1)

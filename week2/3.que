@@ -1,0 +1,2 @@
+Given a key and an array return the count of pairs {a,b} such that a-b = key
+Time Complexity: O(N), Space Complexity: O(N)

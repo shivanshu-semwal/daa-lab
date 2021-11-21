@@ -1,0 +1,2 @@
+Given an unsorted array, find out the k-th smallest number 
+Time Complexity: O(n), Space Complexity: O(1)

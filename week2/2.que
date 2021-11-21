@@ -1,0 +1,2 @@
+Find a squence of indices i < j < k in the sorted array such that arr[i]+arr[j]=arr[k].
+Time Complexity: $O((n^2)logn)$, Space Complexity: $O(1)$

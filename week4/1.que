@@ -1,0 +1,3 @@
+Sort an array using MergeSort and calculate the number of comparisons made
+Also calculate the number of inversions present in the array
+Time Complexity: O(nlogn), Space Complexity: O(n)

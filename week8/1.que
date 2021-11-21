@@ -1,0 +1,3 @@
+Use Prims Algorithm to Calculate Minimum Spanning Tree of a graph
+Time Complexity: $O((V+E)*log(V))$
+Space Complexity: $O(V+E)$

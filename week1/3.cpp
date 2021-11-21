@@ -1,13 +1,5 @@
-/*
- * jump search
- */
-
-#include <algorithm>
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
@@ -18,13 +10,10 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> v[i];
         }
-
         int key;
         cin >> key;
-
         bool flag = false;
         int count = 0;
-
         int power = 0;
         while (++count && power < n && key >= v[power]) {
             if (key == v[power]) {

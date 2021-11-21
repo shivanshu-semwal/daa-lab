@@ -1,0 +1,3 @@
+Use Dijkstra's Algorithm to find the shortest path to all vertices from a given source vertex
+Time Complexity: $O(ElogE)$ for(adjacency list) and $O(V^2)$ for adjacency matrix, 
+Space Complexity: $O(V)$

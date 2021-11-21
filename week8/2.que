@@ -1,0 +1,3 @@
+Use Kruskal's Algorithm to Calculate Minimum Spanning Tree of a graph
+Time Complexity: $O(E*log(E))$
+Space Complexity: $O(V+E)$

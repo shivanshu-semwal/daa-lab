@@ -1,0 +1,361 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.6)  21 NOV 2021 15:55
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.tex
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count178
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count179
+\lst@currlwidth=\dimen143
+\lst@column=\count180
+\lst@pos=\count181
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count182
+\lst@lineno=\count183
+\lst@maxwidth=\dimen146
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count184
+\lst@skipnumbers=\count185
+\lst@framebox=\box46
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box47
+) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.aux)
+\openout1 = `file.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(63.87643pt, 469.75499pt, 63.87645pt)
+* v-part:(T,H,B)=(60.50174pt, 693.79243pt, 90.75267pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.75499pt
+* \textheight=693.79243pt
+* \oddsidemargin=-8.39355pt
+* \evensidemargin=-8.39355pt
+* \topmargin=-48.76825pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count187
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count188
+\scratchdimen=\dimen147
+\scratchbox=\box48
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen148
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 43.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `file.toc'.
+
+ [2] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--55
+
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.cpp) [3] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/1.out) [4] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--68
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/2.cpp) [5] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/2.out) [6] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--81
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/3.cpp) [7] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week1/3.out) [8] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--96
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/1.cpp) [9] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/1.out) [10] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--109
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/2.cpp) [11] [12] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/2.out) [13] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--122
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/3.cpp) [14] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week2/3.out) [15] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--136
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/1.cpp) [16] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/1.out) [17] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--149
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/2.cpp) [18] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/2.out) [19] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--162
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/3.cpp) [20] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week3/3.out) [21] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--176
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/1.cpp [22]) [23] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/1.out) [24] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--189
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/2.cpp [25]) [26] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/2.out) [27] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--202
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/3.cpp [28]) [29] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week4/3.out) [30] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--216
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/1.cpp) [31] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/1.out) [32] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--229
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/2.cpp) [33] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/2.out) [34] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--242
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/3.cpp) [35] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week5/3.out) [36] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--256
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/1.cpp [37]) [38] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/1.out) [39] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--269
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/2.cpp [40]) [41] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week6/2.out) [42] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--296
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/1.cpp [43]) [44] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/1.out) [45] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--309
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/2.cpp) [46] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/2.out) [47] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--322
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/3.cpp) [48] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week7/3.out) [49] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--336
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/1.cpp [50]) [51] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/1.out) [52] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--349
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/2.cpp [53]) [54] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/2.out) [55] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--362
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/3.cpp [56]) [57] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week8/3.out) [58] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--376
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/1.cpp) [59] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/1.out) [60] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--389
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/2.cpp) [61] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/2.out) [62] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--402
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/3.cpp) [63] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week9/3.out) [64] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--416
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/1.cpp) [65] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/1.out) [66] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--429
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/2.cpp) [67] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/2.out) [68] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--442
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/3.cpp [69]) [70] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week10/3.out) [71] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/1.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--456
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/1.cpp) [72] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/1.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/1.out) [73] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/2.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--469
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/2.cpp) [74] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/2.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/2.out) [75] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/3.que)
+Underfull \hbox (badness 10000) in paragraph at lines 1--482
+
+ []
+
+(/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/3.cpp) [76] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/3.in) (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/week11/3.out) [77] (/media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.aux) ) 
+Here is how much of TeX's memory you used:
+ 4507 strings out of 481239
+ 71851 string characters out of 5920377
+ 725373 words of memory out of 5000000
+ 19499 multiletter control sequences out of 15000+600000
+ 537108 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,53p,230b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on /media/totoro/Data/BTECH/5/practicals/daa/daa-lab/file.pdf (77 pages, 200306 bytes).
+PDF statistics:
+ 295 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

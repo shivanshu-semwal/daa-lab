@@ -5,7 +5,7 @@
 # you may see some stderr messages
 # only stdout is stored in the file
 compile() {
-    echo -e "Compiling week$1 program no $1"
+    echo -e "Compiling week$1 program no $2"
     # WEEK="$1"
     # NUMBER="$2"
     DIR="week$1"
@@ -77,6 +77,10 @@ week11() {
     compile 11 1
     compile 11 2
     compile 11 3
+}
+
+clean(){
+    find week1 week2 week3 week4 week5 week6 week7 week8 week9 week10 week11 -type f ! -name "*.*"
 }
 
 week1

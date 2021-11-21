@@ -1,3 +1,3 @@
-Implement Fractional Knapsack
+Implement Fractional Knapsack.
 Time Complexity: $O(n\log{n})$
 Space Complexity: $O(n)$

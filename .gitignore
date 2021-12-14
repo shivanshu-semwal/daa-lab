@@ -3,3 +3,10 @@
 !*.*
 a.out
 .vscode
+file.fls
+file.log
+file.out
+file.synctex.gz
+file.toc
+file.aux
+file.fdb_latexmk
